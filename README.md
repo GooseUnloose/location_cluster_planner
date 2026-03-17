@@ -1,6 +1,9 @@
-# Community-Detection-Exploration
+# location_cluster_planner
 
-An exploration of identifying, locally optimal communities in dense graphs/networks. To be used in navigational services to identify geographically close communities from a list of locations
+A tool for logistics and route planners to quickly identify which UK locations are geographically close to one another. Input a list of locations and get a list of groups based on proximity to one another, either as a simple script output or through an interactive map in your browser.</br>
+>The framework can extend to other countries, but for now coverage is only of the United Kingdom
+
+This repository originally began as an exploration of identifying, locally optimal communities in dense graphs/networks. To be used in navigational services to identify geographically close communities from a list of locations
 
 ### Why?
 When given a list of cities to visit over the course of a month (or any period of time), it is vital for efficiency's sake to determine if some places can be visited whilst you are already visiting another location. This cuts back on going back to areas that were already visited, and maximising the utility of trips.
